@@ -1,0 +1,12 @@
+// Tipo de Pessoa
+export const TIPO_PESSOA_LABEL = {
+  PESSOA_FISICA: 'Pessoa Física',
+  PESSOA_JURIDICA: 'Pessoa Jurídica'
+}
+
+// Estado Civil
+export const ESTADO_CIVIL_LABEL = {
+  CASADO: 'Casado',
+  SOLTEIRO: 'Solteiro',
+  DIVORCIADO: 'Divorciado'
+}

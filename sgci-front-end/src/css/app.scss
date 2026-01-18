@@ -45,3 +45,31 @@
     background-color: #dddddd;
     min-width: 150px;
 }
+
+.view-field {
+  display: flex;
+  flex-direction: column; /* label em cima, value embaixo */
+  gap: 4px;
+}
+
+.label-view {
+  font-size: 12px;
+  color: #777;
+  font-weight: 500;
+}
+
+.value-view {
+  font-size: 15px;
+  font-weight: 500;
+  color: #000;
+}
+
+.column-header {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.column-label {
+  font-weight: 600;
+}

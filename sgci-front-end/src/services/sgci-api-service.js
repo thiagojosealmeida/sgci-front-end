@@ -26,6 +26,7 @@ export const pessoaService = {
    * Busca uma pessoa por ID.
    */
   findById (id) {
+    if (!id) throw new Error('ID é obrigatório')
     return api.get(`${resourcePath}/${id}`)
   },
 
